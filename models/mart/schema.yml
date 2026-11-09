@@ -1,0 +1,7 @@
+models:
+  - name: mart_customers_orders
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+    
